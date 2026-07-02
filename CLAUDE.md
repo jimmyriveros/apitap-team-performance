@@ -25,36 +25,36 @@ CLAUDE.md                      ← THIS FILE — context for Claude Code session
 ---
 
 ## CURRENT STATE
-_Last updated: 2026-06-01_
+_Last updated: 2026-07-02_
 
 ### Period
-`1 Nov 2025 — 31 May 2026` | **7 months** | Generated: May 31, 2026
+`1 Nov 2025 — 2 Jul 2026` | **8 months** | Generated: Jul 2, 2026
 
 ### Global KPIs
 | Metric | Value | HTML location |
 |--------|-------|---------------|
-| Total tickets | **383** | `data-count="383"` on first `.value` in `.kpi-band` |
-| Completed | **379** | `data-count="379"` on second `.value` |
-| Still open | **4** | `data-count="4"` on third `.value` |
-| Resolved (tooltip) | 271 | `.td-val` in completed tip-box |
-| Closed (tooltip) | 108 | `.td-val` in completed tip-box |
+| Total tickets | **426** | `data-count="426"` on first `.value` in `.kpi-band` |
+| Completed | **424** | `data-count="424"` on second `.value` |
+| Still open | **2** | `data-count="2"` on third `.value` |
+| Resolved (tooltip) | 301 | `.td-val` in completed tip-box |
+| Closed (tooltip) | 123 | `.td-val` in completed tip-box |
 | % completed (tooltip) | 99% | `.td-val` in completed tip-box |
 
 ### PEOPLE — Current Values
 | Name | total | periods | avg | ratio |
 |------|-------|---------|-----|-------|
-| Diego | 170 | 181 | 3d, 3h | 1.06 |
-| Jesús | 109 | 129 | 10d, 23h | 1.18 |
+| Diego | 178 | 189 | 3d, 13h | 1.06 |
+| Jesús | 133 | 178 | 9d, 13h | 1.34 |
 | Otoniel | 101 | 127 | 3d, 18h | 1.26 |
-| Ashish | 71 | 72 | 10d, 15h | 1.01 |
-| SumitK | 52 | 55 | 5d, 2h | 1.06 |
+| Ashish | 77 | 78 | 10d, 17h | 1.01 |
+| SumitK | 56 | 59 | 4d, 23h | 1.05 |
 | Semyon | 21 | 25 | 9d, 3h | 1.19 |
-| Luis | 12 | 12 | 2d | 1.00 |
+| Luis | 13 | 13 | 1d, 22h | 1.00 |
 
 ### PEOPLE — Monthly Breakdown (full months[] arrays)
-Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/2026
+Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/2026, Jun/2026
 
-**Diego** (total:170, periods:181, avg:'3d, 3h', ratio:1.06)
+**Diego** (total:178, periods:189, avg:'3d, 13h', ratio:1.06)
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov 2025 | 25 | 25 | 3d, 19h | 1.00 |
@@ -64,8 +64,9 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 32 | 32 | 2d, 2h | 1.00 |
 | Abr 2026 | 18 | 19 | 1d, 23h | 1.06 |
 | May 2026 | 23 | 31 | 2d, 16h | 1.35 |
+| Jun 2026 | 8 | 8 | 12d, 15h | 1.00 |
 
-**Jesús** (total:109, periods:129, avg:'10d, 23h', ratio:1.18)
+**Jesús** (total:133, periods:178, avg:'9d, 13h', ratio:1.34)
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov 2025 | 1 | 1 | 5h | 1.00 |
@@ -75,8 +76,9 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 30 | 31 | 8d, 17h | 1.03 |
 | Abr 2026 | 37 | 44 | 3d, 15h | 1.19 |
 | May 2026 | 12 | 14 | 1d, 5h | 1.17 |
+| Jun 2026 | 24 | 49 | 3d, 4h | 2.04 |
 
-**Otoniel** (total:101, periods:127, avg:'3d, 18h', ratio:1.26) — NOT in May report, values unchanged
+**Otoniel** (total:101, periods:127, avg:'3d, 18h', ratio:1.26) — no Jun primary tickets
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov 2025 | 0 | 0 | — | 0 |
@@ -86,8 +88,9 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 54 | 59 | 5d, 23h | 1.04 |
 | Abr 2026 | 49 | 62 | 2d, 13h | 1.24 |
 | May 2026 | 7 | 7 | 1d, 2h | 1.00 |
+| Jun 2026 | 0 | 0 | — | 0 |
 
-**Ashish** (total:71, periods:72, avg:'10d, 15h', ratio:1.01)
+**Ashish** (total:77, periods:78, avg:'10d, 17h', ratio:1.01)
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov 2025 | 10 | 10 | 16d, 7h | 1.00 |
@@ -97,8 +100,9 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 16 | 16 | 4d, 5h | 1.00 |
 | Abr 2026 | 14 | 14 | 6d, 14h | 1.00 |
 | May 2026 | 12 | 12 | 6d, 13h | 1.00 |
+| Jun 2026 | 6 | 6 | 11d, 14h | 1.00 |
 
-**SumitK** (total:52, periods:55, avg:'5d, 2h', ratio:1.06)
+**SumitK** (total:56, periods:59, avg:'4d, 23h', ratio:1.05)
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov 2025 | 0 | 0 | — | 0 |
@@ -108,30 +112,31 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 19 | 20 | 4d, 10h | 1.05 |
 | Abr 2026 | 19 | 19 | 2d, 20h | 1.00 |
 | May 2026 | 10 | 10 | 2d, 9h | 1.00 |
+| Jun 2026 | 4 | 4 | 3d, 6h | 1.00 |
 
-**Semyon** (total:21, periods:25, avg:'9d, 3h', ratio:1.19) — no May activity
+**Semyon** (total:21, periods:25, avg:'9d, 3h', ratio:1.19) — no Jun activity
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov–Feb | 0 | 0 | — | 0 |
 | Mar 2026 | 12 | 13 | 3d | 1.08 |
 | Abr 2026 | 10 | 11 | 16d, 11h | 1.10 |
 | May 2026 | 0 | 0 | — | 0 |
+| Jun 2026 | 0 | 0 | — | 0 |
 
-**Luis** (total:12, periods:12, avg:'2d', ratio:1.00)
+**Luis** (total:13, periods:13, avg:'1d, 22h', ratio:1.00)
 | Month | tickets | periods | avg | ratio |
 |-------|---------|---------|-----|-------|
 | Nov–Feb | 0 | 0 | — | 0 |
 | Mar 2026 | 4 | 4 | 3d | 1.00 |
 | Abr 2026 | 2 | 2 | 3h | 1.00 |
 | May 2026 | 6 | 6 | 1d, 22h | 1.00 |
+| Jun 2026 | 1 | 1 | 23h | 1.00 |
 
-### Open Tickets at May 31, 2026 (OPEN_TICKETS array)
+### Open Tickets at Jul 2, 2026 (OPEN_TICKETS array)
 | ID | Title | Assignee | assigned |
 |----|-------|----------|----------|
-| 1735 | Crash provoked when clicking on records of Payment Account Summary of a Consumer | Otoniel | 2026-05-14 |
-| 1740 | Push notifications should be generated for all message types. | Ashish | 2026-05-12 |
-| 1759 | Promotions search does not show promotions | SumitK | 2026-05-27 |
-| 1761 | Messages sent by the consumer are not displayed | Ashish | 2026-05-26 |
+| 1806 | Push notifications on iOS display the message as JSON | Ashish | 2026-06-29 |
+| 1774 | Graphics too large | Jesús | 2026-06-06 |
 
 ### Ticket ID Range by Month (reference for new IDs)
 | Period | ID range (approx) |
@@ -143,6 +148,7 @@ Months order: Nov/2025, Dic/2025, Ene/2026, Feb/2026, Mar/2026, Abr/2026, May/20
 | Mar 2026 | 1551–1638 |
 | Abr 2026 | 1619–1700 |
 | May 2026 | 1701–1763 |
+| Jun 2026 | 1764–1806 |
 
 ---
 
@@ -379,3 +385,4 @@ When a new month is added beyond May 2026, update `h1_w6`/`h1_w7` and `footer_mo
 |------|--------|---------|-------------|
 | 2026-05-08 | Nov 2025–May 8, 2026 | 344 total / 334 done / 10 open | Initial report |
 | 2026-06-01 | Nov 2025–May 31, 2026 | 383 total / 379 done / 4 open | Full May update: +19 Diego, +9 Jesús, +6 Ashish, +4 Luis, +1 SumitK. Open: #1735 Otoniel, #1740/#1761 Ashish, #1759 SumitK |
+| 2026-07-02 | Nov 2025–Jul 2, 2026 | 426 total / 424 done / 2 open | Full Jun update: +8 Diego, +24 Jesús, +6 Ashish, +4 SumitK, +1 Luis. Open: #1806 Ashish, #1774 Jesús. Jesús now highest ratio (1.34×). |
